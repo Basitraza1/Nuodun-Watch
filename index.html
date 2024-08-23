@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body >
+  <style>
+ #bg-image{
+   
+   /* The image used in form background */
+   background-image: url("https://www.techhunk.pk/images/banners/66a904a89b994.webp");
+ padding: 300px;
+   height: 100%; 
+   
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat; 
+    background-size: cover;
+ }
+
+ /* card effect  */
+
+ .card{
+
+border: none;
+}
+
+.cardimg{
+
+transition: transform 0.4s ease ;
+box-shadow: 2px 3px 7px black;
+}
+
+.cardimg:hover{
+
+  transform:  scale(1.1) ;
+  cursor: pointer;
+}
+
+.Cimg2:hover{
+
+ cursor: pointer;
+}
+
+/* banner heading effect  */
+
+h1 {
+  --s: 0.1em;   /* the thickness of the line */
+  --c: blue; /* the color */
+  
+  color: #0000;
+  padding-bottom: var(--s);
+  background: 
+    linear-gradient(90deg,var(--c) 50%,#000 0) calc(100% - var(--_p,0%))/200% 100%,
+      linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) var(--s) no-repeat;
+  -webkit-background-clip: text,padding-box;
+          background-clip: text,padding-box;
+  transition: 0.5s;
+}
+h1:hover {--_p: 100%}
+
+
+
+h1 {
+  font-family: system-ui, sans-serif;
+  font-size: 5rem;
+  cursor: pointer;
+}
+
+
+  </style>
+
+                     <!-- navbar  -->
+
+<body class="bg-white text-align center">
+                      
+<nav class="navbar text-align fixed-top navbar-expand-md bg-dark navbar-dark">
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="nav justify-content-center" >
+      <li class="nav-item justify-content-center ">
+        <a class="nav-link" id="nav-text" href="#" style="color: white; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">SERVICES</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" style="color: white; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">CONTACT US</a>
+      </li>  
+      <li class="nav-item">
+        <a class="nav-link " href="#" style="color: white; font-size: larger; font-family: Georgia, 'Times New Roman', Times, serif;">ABOUT US</a>
+      </li> 
+       
+    </ul>
+    
+  </div>  
+  <li class="nav-item">
+    <img  src="" height="120px" alt="">
+ </li> 
+</nav>
+
+
+
+
+            <!-- bannerr -->
+             
+<div class="container-fluid " id="bg-image">
+
+<div class="row">
+<div></div> 
+
+
+</div>
+</div> 
+<br><br>
+
+
+
+
+
+   <!-- cards  -->
+
+   
+   <section>
+    <h2 class="text-center mt-2">OUR ONLINE PRODUCTS</h2>
+<div class="container py-2 md">
+    <div class="row ">
+        <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://login.com.pk/cdn/shop/files/WhatsAppImage2024-07-24at2.06.11PM.jpg?v=1721812136" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.priceoye.pk/ronin-r-03-smart-watch-pakistan-priceoye-1dbxf-500x500.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.priceoye.pk/m4-smart-band-led-sports-watch-smart-band-pakistan-priceoye-wqfdn-270x270.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.priceoye.pk/haylou-rs5-smart-watch-pakistan-priceoye-ppgh1-270x270.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.priceoye.pk/xiaomi-watch-s3-pakistan-priceoye-fanzb-270x270.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.priceoye.pk/zero-luna-smart-watch-pakistan-priceoye-50h2f-500x500.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://img.freepik.com/free-vector/smartwatch-applications-tasks-concept-llustration_1284-17017.jpg?size=626&ext=jpg&ga=GA1.1.572810568.1723462321&semt=ais_hybrid" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://img.freepik.com/premium-photo/smart-watch-with-time-4-00-screen_1086760-157428.jpg?size=626&ext=jpg&ga=GA1.1.572810568.1723462321&semt=ais_hybrid" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://img.freepik.com/premium-photo/smart-watch-with-red-black-face-black-band_1249034-6285.jpg?size=626&ext=jpg&ga=GA1.1.572810568.1723462321&semt=ais_hybrid" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fHdhdGNofGVufDB8fDB8fHww" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://images.unsplash.com/photo-1461141346587-763ab02bced9?q=80&w=1400&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           <div class="col-sm-3 col-md-6  col-lg-3">
+            <div class="card card-group card-hover" >
+                <img class="cardimg" src="https://xcessorieshub.com/wp-content/uploads/2024/08/Hifuture-Aura-Black-300x300.webp" height="200px" width="250px" alt="">
+            </div>
+            <h6 style="margin-right: 90px;" class="text-center p-5"></h6>
+           </div>
+
+           
+    </div>
+
+    </div>
+    </section>
+
+
+
+
+   <!-- FOOTER & cards -->
+                                       
+<div class="container p-5">
+  <div class="row ">
+        <div class="col-md-12 col-lg-6">
+           <div class="card-group ml-8" style="font-size: 14px;">
+                                                    
+              <img   src="https://cdn-icons-png.flaticon.com/512/6831/6831000.png" width="60px" height="50px" alt="">
+              <h5 class="px-2">Free shipping</h5>
+              
+              <p  class="px-5 ">Shop for Rs 2500  and get free shopping</p>
+           </div>
+                                               
+                                               
+  </div>
+  
+     <div class="col-md-12 col-lg-6">
+        <div class="card-group" style="font-size: 14px;">
+                                                    
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2vGv9eAAemT90lFszPHidcFhXiFmup6t2_A&s" width="50px" height="50px" alt="">
+           <h5 class="px-2">Secure payments</h5>
+           <p  class="px-5">Your payment information is processed securely</p>
+         </div>
+                                               
+                                               
+     </div>
+   </div>
+</div>
+      <br>
+  
+  <!-- footer  -->
+
+  <footer class="footer" style="background-color: #0f1416; color: white;"><br>
+       
+    <div class="container">
+       <div class="row" style="font-size: 14px;">
+          <div class="col-md-3">
+             <div class="card-group"> 
+               <p><strong>ABOUT THE SHOP</strong></p>
+               <p>Discover the perfect synergy of online shopping and in-person experience at our ecommerce store, 
+                bridging the gap between convenience and personal connection. With a physical store location,
+                 we offer the best of both worlds, allowing customers to explore our products virtually or visit us directly for a truly immersive shopping journey.
+                </p>
+               
+                                                               
+          </div>
+    </div>
+                                                          
+          <div class="col-md-3">
+             <div class="card-group" style="margin-left: 4vw;">
+                <p><strong>COUSTOMER SERVICES</strong></p>
+                <P class="Footercol2">You can have your products delivered anywhere in Pakistan. 
+                  The delivery charges may vary depending on the city. Your order will be successfully delivered within 3-5 working days. 
+                  Deliveries may be delayed in case of unforeseen circumstances, weather conditions, and so on.
+                   Login will update you via email in case of a delay in delivery.</P>
+             </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="card-group" style="margin-left: 4vw;">
+               <p><strong>PAYMENTS</strong></p>
+               <P class="Footercol2">We have a standard pre-authorization process for online payments that confirms the availability of sufficient funds in your account. The amount will be debited from your account and the order will be placed successfully.The delivery rider will collect the payment from you at the time of delivery for Cash on Delivery orders.
+              </P>
+            </div>
+         </div>
+                                                              
+  
+    
+    
+    <div class="col-md-3">
+       <div class="card-group">
+          <p><strong>NEWSLETTER</strong></p>
+          <p>Login Smart Technology - your trusted source for top-tier mobile accessories. Uncover our innovative lineup of high-performance earbuds, 
+            headphones, power banks, chargers, speakers, and beyond. We're confident you'll love them - satisfaction guaranteed.</p>
+          <input style="border-radius: 0px;" type="email" class="form-control" placeholder="Enter Your Email" required><br>
+    
+    
+    <button type="submit" class="btn btn-danger" style="margin-top: 10px; border-radius: 0px;">Subscribe</button>
+                                                             
+                                                              
+    </div>
+    </div>
+       </div>
+     <br><br><br>
+    <div class="text-center margin-bottom">
+      <p class="Footercol1"><strong>Contact Info</strong></p>
+               <a class="Footercol1" href=""><p><strong>Email:</strong>https://login.com.pk/pages/about-us</p></a>
+               <a class="Footercol1" href=""><p><strong>Phone:</strong> 03111222295</p></a>
+    <p class="text-light text-center text-align"><br>
+
+        Address: Shop # G-68, Jeff Heights, Gulberg 3, Lahore
+       
+        
+       </p><br>
+
+       <a target="_blank"  href="https://www.whatsapp.com/">  <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/whatsapp-white-icon.png" height="100px" alt=""></a>
+
+       <a target="_blank" href="https://www.facebook.com/"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-app-round-white-icon.png" height="100px" alt=""></a>
+
+       <a target="_blank" href="https://www.instagram.com/"> <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png" height="100px"  alt=""></a>
+    </div>
+    
+
+  
+
+   </body>
+</html>
+
+
